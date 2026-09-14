@@ -18,7 +18,7 @@ from strategies.bear_put_spread import BearPutSpread
 from strategies.short_strangle import ShortStrangle
 import os
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = "8656941515:AAFXaU5LJMLnMQhf7ZQ8_PZ7w4Ky7Z8Wk64"
 
 MIN_ROI = 50
 

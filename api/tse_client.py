@@ -7,13 +7,7 @@ class TseClient:
 
     def __init__(self):
         self.session = requests.Session()
-        # مقدار را از ENV می‌خوانیم، اگر نبود پروکسی نمی‌زنیم
-        proxy_url = os.getenv("IRAN_PROXY") 
-        if proxy_url:
-            self.session.proxies = {
-                "http": proxy_url,
-                "https": proxy_url,
-            }
+        
 
     def get_instrument_search(self, symbol):
         url = f"{self.BASE_URL}Instrument/GetInstrumentSearch/{symbol}"
