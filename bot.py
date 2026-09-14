@@ -164,7 +164,7 @@ def symbol_keyboard(strategy):
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     text = (
-        "📊 <b>OptiBours</b>\n\n"
+        "📊 <b>OptiBourse</b>\n\n"
         "🎯 دستیار تحلیل استراتژی‌های آپشن\n\n"
         "لطفاً استراتژی موردنظر را انتخاب کنید:"
     )
