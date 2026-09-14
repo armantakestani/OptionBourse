@@ -1,5 +1,5 @@
 import requests
-
+import os
 
 class TseClient:
 
